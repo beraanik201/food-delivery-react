@@ -1,0 +1,322 @@
+*{
+  margin: 0px;
+  padding: 1px;
+  overflow-x: hidden;
+}
+
+/* Header Design */
+.header{
+  background-color: #fefaee;
+  display:flex;
+  justify-content: space-between;
+  border:1px solid black;
+
+}
+.logo{
+  height:100px;
+}
+.nav-items{
+  margin-top: 15px;
+}
+.nav-items ul{
+  font-size: 20px;
+  display:flex;
+  list-style-type: none;
+}
+.nav-items ul li{
+  padding: 10px;
+  margin: 10px;
+  cursor: pointer;
+ 
+}
+.restaurant-container{
+  display:flex;
+  flex-wrap: wrap;
+}
+.restaurant-card{
+  margin:2px;
+  padding:2px;
+  background-color: #fefaee;
+  width: 200px;
+  /* height: 300px; */
+  
+}
+.restaurant-card:hover{
+  cursor:pointer;
+  border:1px solid black;
+}
+.restaurant-logo{
+  width:100%;
+  
+  height: 160px;
+}
+/* .restaurant-stars{
+  display:inline;
+}
+.restaurant-eta-time{
+  display:inline;
+  padding: 0px 10px;
+} */
+.search{
+  padding: 10px;
+}
+
+.search-box-filter{
+  display: inline;
+}
+.filter-btn{
+  display:inline;
+  margin: 10px;
+  margin-left: 850px;
+  cursor:pointer;
+}
+.shimmer-container{
+  display:flex;
+  flex-wrap: wrap;
+  margin-top: 50px;;
+}
+.shimmer-card{
+  
+  margin:2px;
+  padding:2px;
+  background-color: #f0f0f0;
+  width: 200px;
+  height: 300px;
+}
+.login{
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 1px;
+}
+.login:hover{
+  background-color: #b5adac;
+}
+/* .contact-container{
+  display:flex;
+}
+.contact-left{
+  display:inline;
+}
+.contact-right{
+  margin-left:10px;
+  display:inline;
+} */
+
+
+.contact-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 1px auto 30px;
+  justify-content: space-evenly;
+  overflow-y: hidden;
+}
+
+.contact-container .contact-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: x-large;
+}
+
+.contact-container .contact-right form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.contact-container .contact-right form input {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  box-sizing: border-box;
+  box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.08);
+  border: 2px solid #aabcca;
+  width: 50vh;
+}
+
+.contact-container .contact-right form textarea {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  box-sizing: border-box;
+  box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.08);
+  border: 2px solid #aabcca;
+  width: 50vh;
+}
+
+.contact-container .contact-right form button {
+  padding: 10px 15px;
+  margin: 10px;
+  background-color: var(--light-blue);
+  box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.08);
+  color: #000000;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+.contact-container .contact-right form button:hover {
+  background-color: var(--dark-green);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
